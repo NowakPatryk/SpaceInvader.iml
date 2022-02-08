@@ -67,6 +67,7 @@ public class Gra extends JPanel implements KeyListener, ActionListener {
         //    wgpoz = i * 100;
         //    g.fillRect(wgpoz, ey, 75 ,75);
         //}
+        //dodawnie przeciwników
         g.fillRect(enemyY + 100, w1 + ey , 75 ,75);
         g.fillRect(enemyY + 200, w2 + ey, 75 ,75);
         g.fillRect(enemyY + 300, w3 + ey, 75 ,75);
