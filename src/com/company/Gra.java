@@ -38,8 +38,7 @@ public class Gra extends JPanel implements KeyListener, ActionListener {
     private int shootMarker1 = 0,shootMarker2 = 0,shootMarker3 = 0,shootMarker4 = 0,shootMarker5 = 0,shootMarker6 = 0, shootMarker7 = 0,shootMarker8 = 0,
             shootMarker9 = 0,shootMarker10 = 0, shootMarker11 = 0,shootMarker12 = 0,shootMarker13 = 0,shootMarker14 = 0, shootMarker15 = 0,shootMarker16 = 0,
             shootMarker17 = 0,shootMarker18 = 0;
-    private int points = 0;
-    private int esc = 0;
+    private int points = 0, esc = 0;
 
 
     public Gra(){
