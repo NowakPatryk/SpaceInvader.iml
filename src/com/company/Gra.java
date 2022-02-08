@@ -21,6 +21,17 @@ public class Gra extends JPanel implements KeyListener, ActionListener {
         }
         return pauza;
     }
+    public static class Player {
+        private String name;
+
+        public Player(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return name;
+        }
+    }
     private int x = 550, y = 615;
     private int  xShoot = x, yShoot = y;
     private int shootSpeed = 35, makeShoot = 0;
@@ -87,7 +98,7 @@ public class Gra extends JPanel implements KeyListener, ActionListener {
         g.fillRect(enemyY + 900, w18 + ey + 100, 75 ,75);
         g.setColor(Color.GREEN);
         g.fillRect(xShoot,yShoot , 10 ,35);
-        //Punkty
+        //Punktacja
         g.setColor(Color.WHITE);
         g.setFont(new Font("serif", Font.BOLD, 20));
         g.drawString("Punkty: " + points, 1087, 20);
