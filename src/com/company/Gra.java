@@ -393,22 +393,22 @@ public class Gra extends JPanel implements KeyListener, ActionListener {
                 //System.out.println(x);
             }
         }
-        if(e.getKeyCode() == KeyEvent.VK_S){
-            if(y == 625) {
-                y = 625;
-            } else
-            {
-                y += speedy;
-                yShoot = y;
-                //System.out.println(y);
-            }
-        }
         if(e.getKeyCode() == KeyEvent.VK_W){
             if(y == 5) {
                 y = 5;
             } else
             {
                 y -= speedy;
+                yShoot = y;
+                //System.out.println(y);
+            }
+        }
+        if(e.getKeyCode() == KeyEvent.VK_S){
+            if(y == 625) {
+                y = 625;
+            } else
+            {
+                y += speedy;
                 yShoot = y;
                 //System.out.println(y);
             }
