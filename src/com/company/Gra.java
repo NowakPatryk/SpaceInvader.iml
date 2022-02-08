@@ -32,13 +32,13 @@ public class Gra extends JPanel implements KeyListener, ActionListener {
     //private int wrogX1 = liczba.nextInt(6)*100;
     //private int wrogX2 = liczba.nextInt(6)*100;
     //private int wgpoz = 100;
+    private int points = 0, esc = 0;
     private int enemyY = 0;
     private int w1 = 0, w2 = 0, w3 = 0, w4 = 0, w5 = 0, w6 = 0, w7 = 0, w8 = 0, w9 = 0, w10 = 0, w11 = 0, w12 = 0,
             w13 = 0, w14 = 0, w15 = 0, w16 = 0, w17 = 0, w18 = 0;
     private int shootMarker1 = 0,shootMarker2 = 0,shootMarker3 = 0,shootMarker4 = 0,shootMarker5 = 0,shootMarker6 = 0, shootMarker7 = 0,shootMarker8 = 0,
             shootMarker9 = 0,shootMarker10 = 0, shootMarker11 = 0,shootMarker12 = 0,shootMarker13 = 0,shootMarker14 = 0, shootMarker15 = 0,shootMarker16 = 0,
             shootMarker17 = 0,shootMarker18 = 0;
-    private int points = 0, esc = 0;
 
 
     public Gra(){
